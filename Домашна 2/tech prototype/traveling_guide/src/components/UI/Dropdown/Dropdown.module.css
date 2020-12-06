@@ -1,0 +1,12 @@
+.Dropdown{
+    margin: 10px;
+    width: 75%;
+    display: block;
+    border: 1px;
+    height: 50px;
+    outline: none;
+    overflow-y: paged-y;
+}
+.Dropdown option{
+    outline: none;
+}

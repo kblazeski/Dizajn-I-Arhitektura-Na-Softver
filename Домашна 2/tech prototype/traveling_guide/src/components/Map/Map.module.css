@@ -1,0 +1,7 @@
+.Map{
+    display: block;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+}
