@@ -16,19 +16,36 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e26a39e-6929-42fc-ba01-9be6e25bcd53" name="Default Changelist" comment="" />
+    <list default="true" id="4e26a39e-6929-42fc-ba01-9be6e25bcd53" name="Default Changelist" comment="Added responsivity to the site , added clickable SideDrawer with backdrop">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="responsivity" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1lIQCO6XBJppRt8tH9LhLUwd5gf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,6 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607281996861</updated>
       <workItem from="1607281998427" duration="324000" />
+      <workItem from="1607786670047" duration="44000" />
+      <workItem from="1607787321684" duration="54000" />
     </task>
     <servers />
   </component>
@@ -59,16 +78,55 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Домашна 2/tech prototype/traveling_guide" />
+      <path value="$PROJECT_DIR$/Домашна 3/traveling_guide" />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1607786280933">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1607786280933" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1607787376179">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607787376179" />
+    <state x="92" y="92" width="1182" height="544" key="ShowDiffWithBranchDialog" timestamp="1607786280933">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="ShowDiffWithBranchDialog/0.0.1366.728@0.0.1366.728" timestamp="1607786280933" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1607282326996">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607282326996" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1607786280933">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1607786280933" />
+    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607787330869">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607787330869" />
   </component>
 </project>

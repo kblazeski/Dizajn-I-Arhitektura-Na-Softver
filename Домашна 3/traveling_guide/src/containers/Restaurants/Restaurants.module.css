@@ -1,0 +1,22 @@
+.Restaurants{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-top:75px;
+}
+.Box{
+    display: block;
+    width: 50%;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 50px;
+}
+@media (max-width: 768px){
+    .Restaurants{
+        flex-direction: column;
+    }
+    .Box{
+        width: 100%;
+    }
+}

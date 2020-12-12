@@ -1,0 +1,26 @@
+.NavigationItem{
+    display:block;
+    height: 100%;
+    box-sizing: border-box;
+    width: 100%;
+}
+.NavigationItem a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.NavigationItem a:hover,.NavigationItem .active,.NavigationItem a:active{
+    color: #d6d4d4;
+    border-bottom: 4px solid #3388fe;
+    outline: none;
+}
+.NavigationItem a:focus{
+    outline: none;
+}
+@media (max-width: 768px){
+    .NavigationItem{
+        height: auto;
+    }
+}
