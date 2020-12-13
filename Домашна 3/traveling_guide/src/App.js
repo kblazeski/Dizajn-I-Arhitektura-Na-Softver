@@ -16,6 +16,16 @@ import Parkings from "./containers/Parkings/Parkings";
 function App() {
 
     const [sideDrawerState,setSideDrawerState] = useState(false);
+    const [startCoords,setStartCoords] = useState([]);
+
+    useEffect(() => {
+        navigator.geolocation.getCurrentPosition(showLocation);
+    },[]);
+
+    const showLocation = (position) => {
+        let koordinati = [position.coords.longitude,position.coords.latitude]
+        setStartCoords(koordinati);
+    }
 
     const changeSideDrawerState = () => {
         setSideDrawerState(!sideDrawerState)
@@ -29,11 +39,21 @@ function App() {
                 <SideDrawer isOpen={sideDrawerState}/>
                 {sideDrawerState?<Backdrop changeSideDrawerState={changeSideDrawerState}/>:null}
                 <Switch>
-                    <Route path='/restaurants' component={Restaurants}/>
-                    <Route path='/atms' component={Atms}/>
-                    <Route path='/cafes' component={Cafes}/>
-                    <Route path='/gas-stations' component={Fuels}/>
-                    <Route path='/parking-lots' component={Parkings}/>
+                    <Route exact path='/restaurants' render={() =>
+                        <Restaurants startCoords={startCoords}/>
+                    }/>
+                    <Route path='/atms' render={() =>
+                        <Atms startCoords={startCoords}/>
+                    }/>
+                    <Route path='/parking-lots' render={() =>
+                        <Parkings startCoords={startCoords}/>
+                    }/>
+                    <Route path='/gas-stations' render={() =>
+                        <Fuels startCoords={startCoords}/>
+                    }/>
+                    <Route path='/cafes' render={() =>
+                        <Cafes startCoords={startCoords}/>
+                    }/>
                     <Redirect to='/'/>
                 </Switch>
             </BrowserRouter>

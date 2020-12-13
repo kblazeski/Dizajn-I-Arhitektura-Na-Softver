@@ -6,7 +6,6 @@ import Dropdown from '../../components/UI/Dropdown/Dropdown'
 import useDidMountEffect from "../../customHooks/useEffect/useDidMountEffect";
 
 const Fuels = props => {
-    const [startCoords,setStartCoords] = useState([]);
     const [endCoords,setEndCoords] = useState([]);
     const [data,setData] = useState(null);
     const [restaurants,setRestaurants] = useState([]);
@@ -30,7 +29,6 @@ const Fuels = props => {
     }
 
     useEffect(() => {
-        navigator.geolocation.getCurrentPosition(showLocation);
         axios.get('https://travelling-guide-ca721-default-rtdb.europe-west1.firebasedatabase.app/fuels.json')
             .then(res => {
                 setRestaurants(res.data);
@@ -38,22 +36,16 @@ const Fuels = props => {
     },[]);
 
     useDidMountEffect(() => {
-        let startCoordinates = startCoords.join(",");
+        let startCoordinates = props.startCoords.join(",");
         let endCoordinates = endCoords.join(",");
         axios.get('https://api.openrouteservice.org/v2/directions/'+transport+'?api_key=5b3ce3597851110001cf6248c7928ceccc494b268b8f43ecfe4c0c2b&start='+startCoordinates+'&end='+endCoordinates)
             .then(res => {
                 setData(res.data);
             })
             .catch(err => {
-                console.log(err);
             })
     },[endCoords,transport]);
 
-
-    const showLocation = (position) => {
-        let koordinati = [position.coords.longitude,position.coords.latitude]
-        setStartCoords(koordinati);
-    }
 
     const finalLocationCoordsHandler = event => {
         let coords = event.target.value;
@@ -77,19 +69,17 @@ const Fuels = props => {
         if(hours >= 1){
             let minutes = duration%3600;
             minutes = minutes/60;
-            return hours+':'+parseInt(minutes)+'hours';
+            return hours+':'+parseInt(minutes)+' hours';
         }
         if(hours <= 0){
             let minutes = duration/60;
             minutes = parseInt(minutes);
-            console.log(minutes)
             let seconds = duration-(minutes*60);
-            console.log(seconds);
             if(minutes <= 0){
-                return parseInt(seconds)+'seconds';
+                return parseInt(seconds)+' seconds';
             }
             else{
-                return minutes+':'+parseInt(seconds)+'minutes';
+                return minutes+':'+parseInt(seconds)+' minutes';
             }
         }
     }
@@ -98,8 +88,7 @@ const Fuels = props => {
     let showMap = null
     let showDistanceAndDuration = null;
 
-    if(startCoords.length > 0 && endCoords.length > 0 && data != null){
-        console.log(data.features[0].properties.summary.distance);
+    if(props.startCoords.length > 0 && endCoords.length > 0 && data != null){
         let distance = parseFloat(data.features[0].properties.summary.distance);
         distance = distance/1000;
         distance = distance.toFixed(1);
@@ -112,19 +101,19 @@ const Fuels = props => {
                 <br/>
             </React.Fragment>
         );
-        showMap = <Map startingPoints={startCoords} endPoints={endCoords} data={data}/>;
+        showMap = <Map startingPoints={props.startCoords} endPoints={endCoords} data={data}/>;
 
     }
     return (
         <div className={classes.Fuels}>
             <div className={classes.Box}>
-                {startCoords.length === 0?
+                {props.startCoords.length === 0?
                     <p className={classes.Danger}>Enable your location to use the app , reload the page</p>:null}
                 {showDistanceAndDuration}
                 <label>Choose location for traveling:</label>
-                <Dropdown disabled={startCoords.length === 0} options={restaurants} changeLocation={finalLocationCoordsHandler}/>
+                <Dropdown disabled={props.startCoords.length === 0} options={restaurants} changeLocation={finalLocationCoordsHandler}/>
                 <label>Choose your desired transportation:</label>
-                <Dropdown disabled={startCoords.length === 0} changeTransport={changeTransportationHandler} transport={transportationMethods}/>
+                <Dropdown disabled={props.startCoords.length === 0} changeTransport={changeTransportationHandler} transport={transportationMethods}/>
             </div>
             {showMap}
         </div>

@@ -19,7 +19,7 @@
     color:red;
 }
 @media (max-width: 768px){
-    .Restaurants{
+    .Fuels{
         flex-direction: column;
     }
     .Box{

@@ -25,15 +25,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e26a39e-6929-42fc-ba01-9be6e25bcd53" name="Default Changelist" comment="Added map navigation with GeoJSON , and marker replacement , added restaurants in the drop down menu from firebase">
+    <list default="true" id="4e26a39e-6929-42fc-ba01-9be6e25bcd53" name="Default Changelist" comment="Added distance and duration of the trip , added other functionalities like other travelling destinations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/Map/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/Map/Map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/UI/Dropdown/Dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/UI/Dropdown/Dropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/UI/Dropdown/Dropdown.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/UI/Dropdown/Dropdown.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/ATMs/Atms.js" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/ATMs/Atms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/ATMs/Atms.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/ATMs/Atms.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Cafes/Cafes.js" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Cafes/Cafes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Cafes/Cafes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Cafes/Cafes.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Fuels/Fuels.js" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Fuels/Fuels.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Fuels/Fuels.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Fuels/Fuels.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Parkings/Parkings.js" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Parkings/Parkings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Parkings/Parkings.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Parkings/Parkings.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Restaurants/Restaurants.js" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Restaurants/Restaurants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Restaurants/Restaurants.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Restaurants/Restaurants.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +95,7 @@
       <workItem from="1607787668911" duration="667000" />
       <workItem from="1607789044108" duration="1609000" />
       <workItem from="1607801882529" duration="5555000" />
-      <workItem from="1607857523626" duration="14335000" />
+      <workItem from="1607857523626" duration="16058000" />
     </task>
     <task id="LOCAL-00001" summary="Added responsivity to the site , added clickable SideDrawer with backdrop">
       <created>1607787810463</created>
@@ -107,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607863614643</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added distance and duration of the trip , added other functionalities like other travelling destinations">
+      <created>1607875380738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607875380738</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +155,8 @@
     </ignored-roots>
     <MESSAGE value="Added responsivity to the site , added clickable SideDrawer with backdrop" />
     <MESSAGE value="Added map navigation with GeoJSON , and marker replacement , added restaurants in the drop down menu from firebase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added map navigation with GeoJSON , and marker replacement , added restaurants in the drop down menu from firebase" />
+    <MESSAGE value="Added distance and duration of the trip , added other functionalities like other travelling destinations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added distance and duration of the trip , added other functionalities like other travelling destinations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1607788042487">
