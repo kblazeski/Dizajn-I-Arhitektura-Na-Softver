@@ -25,14 +25,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e26a39e-6929-42fc-ba01-9be6e25bcd53" name="Default Changelist" comment="Added responsivity to the site , added clickable SideDrawer with backdrop">
-      <change afterPath="$PROJECT_DIR$/Домашна 3/package-lock.json" afterDir="false" />
+    <list default="true" id="4e26a39e-6929-42fc-ba01-9be6e25bcd53" name="Default Changelist" comment="Added map navigation with GeoJSON , and marker replacement , added restaurants in the drop down menu from firebase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/Map/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/Map/Map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/Navigation/NavigationItem/NavigationItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/Navigation/NavigationItem/NavigationItem.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/UI/Dropdown/Dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/UI/Dropdown/Dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/UI/Dropdown/Dropdown.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/UI/Dropdown/Dropdown.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Restaurants/Restaurants.js" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Restaurants/Restaurants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Restaurants/Restaurants.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Restaurants/Restaurants.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +44,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="responsivity" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,6 +68,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Домашна 3" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -88,7 +91,7 @@
       <workItem from="1607787668911" duration="667000" />
       <workItem from="1607789044108" duration="1609000" />
       <workItem from="1607801882529" duration="5555000" />
-      <workItem from="1607857523626" duration="5526000" />
+      <workItem from="1607857523626" duration="14335000" />
     </task>
     <task id="LOCAL-00001" summary="Added responsivity to the site , added clickable SideDrawer with backdrop">
       <created>1607787810463</created>
@@ -97,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607787810463</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added map navigation with GeoJSON , and marker replacement , added restaurants in the drop down menu from firebase">
+      <created>1607863614643</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607863614643</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +143,8 @@
       <path value="$PROJECT_DIR$/Домашна 3/traveling_guide" />
     </ignored-roots>
     <MESSAGE value="Added responsivity to the site , added clickable SideDrawer with backdrop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added responsivity to the site , added clickable SideDrawer with backdrop" />
+    <MESSAGE value="Added map navigation with GeoJSON , and marker replacement , added restaurants in the drop down menu from firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added map navigation with GeoJSON , and marker replacement , added restaurants in the drop down menu from firebase" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1607788042487">
@@ -164,10 +175,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="ShowDiffWithBranchDialog/0.0.1366.728@0.0.1366.728" timestamp="1607788042487" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1607787824073">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1607863618703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607787824073" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607863618703" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1607786280933">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,11 +1,11 @@
 import React,{useState,useEffect} from 'react';
 import axios from "axios";
 import Map from '../../components/Map/Map';
-import classes from './Restaurants.module.css'
+import classes from './Fuels.module.css'
 import Dropdown from '../../components/UI/Dropdown/Dropdown'
 import useDidMountEffect from "../../customHooks/useEffect/useDidMountEffect";
 
-const Restaurants = props => {
+const Fuels = props => {
     const [startCoords,setStartCoords] = useState([]);
     const [endCoords,setEndCoords] = useState([]);
     const [data,setData] = useState(null);
@@ -31,7 +31,7 @@ const Restaurants = props => {
 
     useEffect(() => {
         navigator.geolocation.getCurrentPosition(showLocation);
-        axios.get('https://travelling-guide-ca721-default-rtdb.europe-west1.firebasedatabase.app/restaurants.json')
+        axios.get('https://travelling-guide-ca721-default-rtdb.europe-west1.firebasedatabase.app/fuels.json')
             .then(res => {
                 setRestaurants(res.data);
             })
@@ -116,7 +116,7 @@ const Restaurants = props => {
 
     }
     return (
-        <div className={classes.Restaurants}>
+        <div className={classes.Fuels}>
             <div className={classes.Box}>
                 {startCoords.length === 0?
                     <p className={classes.Danger}>Enable your location to use the app , reload the page</p>:null}
@@ -131,4 +131,4 @@ const Restaurants = props => {
     );
 }
 
-export default Restaurants;
+export default Fuels;

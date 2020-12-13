@@ -10,3 +10,8 @@
 .Dropdown option{
     outline: none;
 }
+@media (max-width: 768px){
+    .Dropdown{
+        width: 100%;
+    }
+}

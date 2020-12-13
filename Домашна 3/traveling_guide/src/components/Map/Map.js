@@ -18,9 +18,6 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const Map = props => {
-    console.log(props.data);
-    console.log(props.startingPoints);
-    console.log(props.endPoints);
     const startLocation = {
         lat: props.startingPoints[1], lng: props.startingPoints[0]
     }
