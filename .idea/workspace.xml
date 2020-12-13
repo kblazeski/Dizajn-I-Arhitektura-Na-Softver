@@ -26,18 +26,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e26a39e-6929-42fc-ba01-9be6e25bcd53" name="Default Changelist" comment="Added responsivity to the site , added clickable SideDrawer with backdrop">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Домашна 3/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/Map/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/Map/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/Navigation/NavigationItem/NavigationItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/Navigation/NavigationItem/NavigationItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/UI/Dropdown/Dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/components/UI/Dropdown/Dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Restaurants/Restaurants.js" beforeDir="false" afterPath="$PROJECT_DIR$/Домашна 3/traveling_guide/src/containers/Restaurants/Restaurants.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="responsivity" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,8 +65,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Домашна 3" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kiril\Dizajn-I-Arhitektura-Na-Softver\Домашна 3" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,7 +85,19 @@
       <workItem from="1607281998427" duration="324000" />
       <workItem from="1607786670047" duration="44000" />
       <workItem from="1607787321684" duration="54000" />
+      <workItem from="1607787668911" duration="667000" />
+      <workItem from="1607789044108" duration="1609000" />
+      <workItem from="1607801882529" duration="5555000" />
+      <workItem from="1607857523626" duration="5526000" />
     </task>
+    <task id="LOCAL-00001" summary="Added responsivity to the site , added clickable SideDrawer with backdrop">
+      <created>1607787810463</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607787810463</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,24 +132,42 @@
       <path value="$PROJECT_DIR$/Домашна 2/tech prototype/traveling_guide" />
       <path value="$PROJECT_DIR$/Домашна 3/traveling_guide" />
     </ignored-roots>
+    <MESSAGE value="Added responsivity to the site , added clickable SideDrawer with backdrop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added responsivity to the site , added clickable SideDrawer with backdrop" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1607786280933">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1607788042487">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1607786280933" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1607788042487" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1607788059580">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607788059580" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1607788059580">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607788059580" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1607788059580">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607788059580" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1607788059580">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607788059580" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1607787376179">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607787376179" />
-    <state x="92" y="92" width="1182" height="544" key="ShowDiffWithBranchDialog" timestamp="1607786280933">
+    <state x="92" y="92" width="1182" height="544" key="ShowDiffWithBranchDialog" timestamp="1607788042487">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="ShowDiffWithBranchDialog/0.0.1366.728@0.0.1366.728" timestamp="1607786280933" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1607282326996">
+    <state x="92" y="92" width="1182" height="544" key="ShowDiffWithBranchDialog/0.0.1366.728@0.0.1366.728" timestamp="1607788042487" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1607787824073">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607282326996" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607787824073" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1607786280933">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -128,5 +176,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607787330869" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607802382641">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607802382641" />
   </component>
 </project>
