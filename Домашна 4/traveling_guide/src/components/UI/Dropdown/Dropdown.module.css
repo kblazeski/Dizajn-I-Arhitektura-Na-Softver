@@ -1,0 +1,17 @@
+.Dropdown{
+    margin: 10px;
+    width: 75%;
+    display: block;
+    border: 1px;
+    height: 50px;
+    outline: none;
+    overflow-y: paged-y;
+}
+.Dropdown option{
+    outline: none;
+}
+@media (max-width: 768px){
+    .Dropdown{
+        width: 100%;
+    }
+}

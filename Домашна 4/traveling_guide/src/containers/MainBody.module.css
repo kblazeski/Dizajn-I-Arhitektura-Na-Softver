@@ -1,0 +1,28 @@
+.MainBody{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-top:75px;
+}
+.Box{
+    display: block;
+    width: 50%;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.Label{
+    color: #3388fe;
+}
+.Danger{
+    color:red;
+}
+@media (max-width: 768px){
+    .MainBody{
+        flex-direction: column;
+    }
+    .Box{
+        width: 100%;
+    }
+}
